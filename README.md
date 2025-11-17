@@ -16,8 +16,6 @@ It's not just an alerting system; it's an **insights engine**. When an anomaly (
 
 The project implements a modern "speed layer" architecture, handling data from initial ingestion to final insight.
 
-[Image of the real-time anomaly detection data pipeline]
-
 The data flows as follows:
 
 1.  **Producer (`run_producer.py`):** A Python script simulates e-commerce log events (clicks, errors) and pushes them into a **Kafka** topic.
